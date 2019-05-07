@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61E6D772278128700AF7222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E6D762278128700AF7222 /* AppDelegate.swift */; };
+		D61E6D812278128800AF7222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61E6D7F2278128800AF7222 /* LaunchScreen.storyboard */; };
+		D61E6D8C2278128800AF7222 /* ScaryCreaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E6D8B2278128800AF7222 /* ScaryCreaturesTests.swift */; };
+		D61E6D972278128800AF7222 /* ScaryCreaturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E6D962278128800AF7222 /* ScaryCreaturesUITests.swift */; };
+		D61E6DA5227812DA00AF7222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61E6DA4227812DA00AF7222 /* Main.storyboard */; };
+		D61E6DAF2278131B00AF7222 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E6DA72278131B00AF7222 /* RateView.swift */; };
+		D61E6DB02278131B00AF7222 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E6DA82278131B00AF7222 /* Extensions.swift */; };
+		D61E6DB12278131B00AF7222 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E6DAA2278131B00AF7222 /* DetailViewController.swift */; };
+		D61E6DB22278131B00AF7222 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E6DAB2278131B00AF7222 /* MasterViewController.swift */; };
+		D61E6DB32278131B00AF7222 /* ScaryCreatureDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E6DAD2278131B00AF7222 /* ScaryCreatureDoc.swift */; };
+		D61E6DB42278131B00AF7222 /* ScaryCreatureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E6DAE2278131B00AF7222 /* ScaryCreatureData.swift */; };
+		D61E6DB62278133900AF7222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61E6DB52278133900AF7222 /* Assets.xcassets */; };
+		D61E6DB822783E8600AF7222 /* ScaryCreatureDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E6DB722783E8600AF7222 /* ScaryCreatureDatabase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D61E6D882278128800AF7222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61E6D6B2278128700AF7222 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61E6D722278128700AF7222;
+			remoteInfo = ScaryCreatures;
+		};
+		D61E6D932278128800AF7222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61E6D6B2278128700AF7222 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61E6D722278128700AF7222;
+			remoteInfo = ScaryCreatures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D61E6D732278128700AF7222 /* ScaryCreatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryCreatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61E6D762278128700AF7222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D61E6D802278128800AF7222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D61E6D822278128800AF7222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61E6D872278128800AF7222 /* ScaryCreaturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryCreaturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61E6D8B2278128800AF7222 /* ScaryCreaturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaryCreaturesTests.swift; sourceTree = "<group>"; };
+		D61E6D8D2278128800AF7222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61E6D922278128800AF7222 /* ScaryCreaturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryCreaturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61E6D962278128800AF7222 /* ScaryCreaturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaryCreaturesUITests.swift; sourceTree = "<group>"; };
+		D61E6D982278128800AF7222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61E6DA4227812DA00AF7222 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D61E6DA72278131B00AF7222 /* RateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		D61E6DA82278131B00AF7222 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D61E6DAA2278131B00AF7222 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D61E6DAB2278131B00AF7222 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D61E6DAD2278131B00AF7222 /* ScaryCreatureDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryCreatureDoc.swift; sourceTree = "<group>"; };
+		D61E6DAE2278131B00AF7222 /* ScaryCreatureData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryCreatureData.swift; sourceTree = "<group>"; };
+		D61E6DB52278133900AF7222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D61E6DB722783E8600AF7222 /* ScaryCreatureDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaryCreatureDatabase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D61E6D702278128700AF7222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61E6D842278128800AF7222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61E6D8F2278128800AF7222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D61E6D6A2278128700AF7222 = {
+			isa = PBXGroup;
+			children = (
+				D61E6D752278128700AF7222 /* ScaryCreatures */,
+				D61E6D8A2278128800AF7222 /* ScaryCreaturesTests */,
+				D61E6D952278128800AF7222 /* ScaryCreaturesUITests */,
+				D61E6D742278128700AF7222 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D61E6D742278128700AF7222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D61E6D732278128700AF7222 /* ScaryCreatures.app */,
+				D61E6D872278128800AF7222 /* ScaryCreaturesTests.xctest */,
+				D61E6D922278128800AF7222 /* ScaryCreaturesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D61E6D752278128700AF7222 /* ScaryCreatures */ = {
+			isa = PBXGroup;
+			children = (
+				D61E6D762278128700AF7222 /* AppDelegate.swift */,
+				D61E6DAC2278131B00AF7222 /* Model */,
+				D61E6DA62278131B00AF7222 /* Support */,
+				D61E6DA92278131B00AF7222 /* View Controllers */,
+				D61E6DA4227812DA00AF7222 /* Main.storyboard */,
+				D61E6D7F2278128800AF7222 /* LaunchScreen.storyboard */,
+				D61E6DB52278133900AF7222 /* Assets.xcassets */,
+				D61E6D822278128800AF7222 /* Info.plist */,
+			);
+			path = ScaryCreatures;
+			sourceTree = "<group>";
+		};
+		D61E6D8A2278128800AF7222 /* ScaryCreaturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D61E6D8B2278128800AF7222 /* ScaryCreaturesTests.swift */,
+				D61E6D8D2278128800AF7222 /* Info.plist */,
+			);
+			path = ScaryCreaturesTests;
+			sourceTree = "<group>";
+		};
+		D61E6D952278128800AF7222 /* ScaryCreaturesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D61E6D962278128800AF7222 /* ScaryCreaturesUITests.swift */,
+				D61E6D982278128800AF7222 /* Info.plist */,
+			);
+			path = ScaryCreaturesUITests;
+			sourceTree = "<group>";
+		};
+		D61E6DA62278131B00AF7222 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D61E6DA72278131B00AF7222 /* RateView.swift */,
+				D61E6DA82278131B00AF7222 /* Extensions.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D61E6DA92278131B00AF7222 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D61E6DAA2278131B00AF7222 /* DetailViewController.swift */,
+				D61E6DAB2278131B00AF7222 /* MasterViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D61E6DAC2278131B00AF7222 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D61E6DAD2278131B00AF7222 /* ScaryCreatureDoc.swift */,
+				D61E6DAE2278131B00AF7222 /* ScaryCreatureData.swift */,
+				D61E6DB722783E8600AF7222 /* ScaryCreatureDatabase.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D61E6D722278128700AF7222 /* ScaryCreatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61E6D9B2278128800AF7222 /* Build configuration list for PBXNativeTarget "ScaryCreatures" */;
+			buildPhases = (
+				D61E6D6F2278128700AF7222 /* Sources */,
+				D61E6D702278128700AF7222 /* Frameworks */,
+				D61E6D712278128700AF7222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaryCreatures;
+			productName = ScaryCreatures;
+			productReference = D61E6D732278128700AF7222 /* ScaryCreatures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D61E6D862278128800AF7222 /* ScaryCreaturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61E6D9E2278128800AF7222 /* Build configuration list for PBXNativeTarget "ScaryCreaturesTests" */;
+			buildPhases = (
+				D61E6D832278128800AF7222 /* Sources */,
+				D61E6D842278128800AF7222 /* Frameworks */,
+				D61E6D852278128800AF7222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61E6D892278128800AF7222 /* PBXTargetDependency */,
+			);
+			name = ScaryCreaturesTests;
+			productName = ScaryCreaturesTests;
+			productReference = D61E6D872278128800AF7222 /* ScaryCreaturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D61E6D912278128800AF7222 /* ScaryCreaturesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61E6DA12278128800AF7222 /* Build configuration list for PBXNativeTarget "ScaryCreaturesUITests" */;
+			buildPhases = (
+				D61E6D8E2278128800AF7222 /* Sources */,
+				D61E6D8F2278128800AF7222 /* Frameworks */,
+				D61E6D902278128800AF7222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61E6D942278128800AF7222 /* PBXTargetDependency */,
+			);
+			name = ScaryCreaturesUITests;
+			productName = ScaryCreaturesUITests;
+			productReference = D61E6D922278128800AF7222 /* ScaryCreaturesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D61E6D6B2278128700AF7222 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "MobioApp Limited";
+				TargetAttributes = {
+					D61E6D722278128700AF7222 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D61E6D862278128800AF7222 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D61E6D722278128700AF7222;
+					};
+					D61E6D912278128800AF7222 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D61E6D722278128700AF7222;
+					};
+				};
+			};
+			buildConfigurationList = D61E6D6E2278128700AF7222 /* Build configuration list for PBXProject "ScaryCreatures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D61E6D6A2278128700AF7222;
+			productRefGroup = D61E6D742278128700AF7222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D61E6D722278128700AF7222 /* ScaryCreatures */,
+				D61E6D862278128800AF7222 /* ScaryCreaturesTests */,
+				D61E6D912278128800AF7222 /* ScaryCreaturesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D61E6D712278128700AF7222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61E6DA5227812DA00AF7222 /* Main.storyboard in Resources */,
+				D61E6DB62278133900AF7222 /* Assets.xcassets in Resources */,
+				D61E6D812278128800AF7222 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61E6D852278128800AF7222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61E6D902278128800AF7222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D61E6D6F2278128700AF7222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61E6DB822783E8600AF7222 /* ScaryCreatureDatabase.swift in Sources */,
+				D61E6DB22278131B00AF7222 /* MasterViewController.swift in Sources */,
+				D61E6DB42278131B00AF7222 /* ScaryCreatureData.swift in Sources */,
+				D61E6DAF2278131B00AF7222 /* RateView.swift in Sources */,
+				D61E6DB32278131B00AF7222 /* ScaryCreatureDoc.swift in Sources */,
+				D61E6DB02278131B00AF7222 /* Extensions.swift in Sources */,
+				D61E6D772278128700AF7222 /* AppDelegate.swift in Sources */,
+				D61E6DB12278131B00AF7222 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61E6D832278128800AF7222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61E6D8C2278128800AF7222 /* ScaryCreaturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61E6D8E2278128800AF7222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61E6D972278128800AF7222 /* ScaryCreaturesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D61E6D892278128800AF7222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61E6D722278128700AF7222 /* ScaryCreatures */;
+			targetProxy = D61E6D882278128800AF7222 /* PBXContainerItemProxy */;
+		};
+		D61E6D942278128800AF7222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61E6D722278128700AF7222 /* ScaryCreatures */;
+			targetProxy = D61E6D932278128800AF7222 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D61E6D7F2278128800AF7222 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D61E6D802278128800AF7222 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D61E6D992278128800AF7222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D61E6D9A2278128800AF7222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D61E6D9C2278128800AF7222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J654DD59XE;
+				INFOPLIST_FILE = ScaryCreatures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.ScaryCreatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D61E6D9D2278128800AF7222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J654DD59XE;
+				INFOPLIST_FILE = ScaryCreatures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.ScaryCreatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D61E6D9F2278128800AF7222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = ScaryCreaturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.ScaryCreaturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaryCreatures.app/ScaryCreatures";
+			};
+			name = Debug;
+		};
+		D61E6DA02278128800AF7222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = ScaryCreaturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.ScaryCreaturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaryCreatures.app/ScaryCreatures";
+			};
+			name = Release;
+		};
+		D61E6DA22278128800AF7222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = ScaryCreaturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.ScaryCreaturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScaryCreatures;
+			};
+			name = Debug;
+		};
+		D61E6DA32278128800AF7222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = ScaryCreaturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.ScaryCreaturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScaryCreatures;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D61E6D6E2278128700AF7222 /* Build configuration list for PBXProject "ScaryCreatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61E6D992278128800AF7222 /* Debug */,
+				D61E6D9A2278128800AF7222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61E6D9B2278128800AF7222 /* Build configuration list for PBXNativeTarget "ScaryCreatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61E6D9C2278128800AF7222 /* Debug */,
+				D61E6D9D2278128800AF7222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61E6D9E2278128800AF7222 /* Build configuration list for PBXNativeTarget "ScaryCreaturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61E6D9F2278128800AF7222 /* Debug */,
+				D61E6DA02278128800AF7222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61E6DA12278128800AF7222 /* Build configuration list for PBXNativeTarget "ScaryCreaturesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61E6DA22278128800AF7222 /* Debug */,
+				D61E6DA32278128800AF7222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D61E6D6B2278128700AF7222 /* Project object */;
+}
